@@ -3,171 +3,413 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Diego Claros QA Automation portfolio with manual testing, UI automation, API validation, and quality engineering experience."
+  />
   <title>Diego Claros | QA Automation Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav container">
-      <div class="brand">Diego Claros</div>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+  <div class="site-shell">
+    <nav class="nav-shell">
+      <div class="nav container" aria-label="Primary">
+        <div class="nav-top">
+          <a class="brand" href="#top">
+            <span class="brand-mark">DC</span>
+            <span class="brand-copy">
+              <strong>Diego Claros</strong>
+              <small>QA Automation Engineer</small>
+            </span>
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-links">
+            <a href="#profile">Profile</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch color theme"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+          <span class="theme-toggle-label">Theme</span>
+        </button>
       </div>
     </nav>
 
-    <div class="hero-content container">
-      <div class="hero-text">
-        <p class="eyebrow">QA ENGINEER • MANUAL & AUTOMATION</p>
-        <h1>QA Automation Engineer focused on reliable web and API testing.</h1>
-        <p class="subtitle">
-          ISTQB Certified professional with hands-on experience in Selenium, Playwright, API testing,
-          regression testing, exploratory testing, and Agile collaboration.
-        </p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="https://www.linkedin.com/in/diego-claros-qa" target="_blank" rel="noreferrer">View LinkedIn</a>
-          <a class="btn btn-secondary" href="mailto:lclarosrocha@gmail.com">Contact Me</a>
-        </div>
-      </div>
-      <aside class="hero-card">
-        <h2>Core Focus</h2>
-        <ul>
-          <li>UI Automation with Selenium</li>
-          <li>API Testing with Postman and Python</li>
-          <li>Test Design and Defect Reporting</li>
-          <li>Agile QA Collaboration</li>
-        </ul>
-      </aside>
-    </div>
-  </header>
+    <header class="hero" id="top">
+      <div class="hero-glow hero-glow-left"></div>
+      <div class="hero-glow hero-glow-right"></div>
 
-  <main>
-    <section id="about" class="section container">
-      <div class="section-heading">
-        <p class="section-label">About</p>
-        <h2>Professional summary</h2>
-      </div>
-      <div class="card">
-        <p>
-          I am a QA Engineer with experience in manual and automated testing for web and mobile applications.
-          My background includes functional, regression, exploratory, and API testing, along with backend validation,
-          defect documentation, and collaboration with cross-functional teams. I am currently strengthening my profile
-          toward Automation QA roles by building maintainable test frameworks and technical portfolio projects.
-        </p>
-      </div>
-    </section>
-
-    <section id="projects" class="section container">
-      <div class="section-heading">
-        <p class="section-label">Projects</p>
-        <h2>Portfolio projects</h2>
-      </div>
-      <div class="grid two-col">
-        <article class="card project-card">
-          <h3>UI Automation Framework</h3>
-          <p>
-            Selenium + Pytest framework with Page Object Model, reusable locators, and clean test structure.
+      <div class="hero-layout container">
+        <section class="hero-main">
+          <p class="eyebrow">QA ENGINEER - MANUAL TESTING - AUTOMATION - API VALIDATION</p>
+          <h1>Clean quality engineering work for teams that need reliable releases.</h1>
+          <p class="hero-summary">
+            I am Luis Diego Claros Rocha, an ISTQB Certified QA Engineer with hands-on experience in manual
+            testing, UI automation, API validation, backend verification, and Agile collaboration. My focus
+            is building confidence through structured testing, maintainable automation, and clear communication.
           </p>
-          <span class="tag">Selenium</span>
-          <span class="tag">Pytest</span>
-          <span class="tag">POM</span>
-        </article>
-        <article class="card project-card">
-          <h3>API Automation Framework</h3>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:lclarosrocha@gmail.com">Contact Me</a>
+            <a class="btn btn-secondary" href="https://github.com/Diego-Claros17" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+
+          <div class="hero-points">
+            <div class="point-card">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M12 3l7 4v5c0 4.4-2.9 8.4-7 9-4.1-.6-7-4.6-7-9V7l7-4z"></path>
+                </svg>
+              </span>
+              <strong>5+ years</strong>
+              <span>QA work across manual and automation testing.</span>
+            </div>
+            <div class="point-card">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M4 7h16M7 4v6m10-6v6M5 11h14l-1 8H6l-1-8z"></path>
+                </svg>
+              </span>
+              <strong>Web and API</strong>
+              <span>Coverage across UI flows, backend checks, and validation.</span>
+            </div>
+            <div class="point-card">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"></path>
+                </svg>
+              </span>
+              <strong>ISTQB CTFL</strong>
+              <span>Certified foundation with practical project experience.</span>
+            </div>
+          </div>
+        </section>
+
+        <aside class="hero-sidebar card">
+          <div class="profile-portrait">
+            <img src="assets/profile-picture.png" alt="Portrait of Luis Diego Claros Rocha" />
+          </div>
+          <p class="section-label">Quick overview</p>
+          <div class="sidebar-block">
+            <span class="sidebar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 21s7-4.4 7-11a7 7 0 10-14 0c0 6.6 7 11 7 11z"></path>
+                <circle cx="12" cy="10" r="2.5"></circle>
+              </svg>
+            </span>
+            <span class="sidebar-label">Location</span>
+            <strong>Cochabamba, Bolivia</strong>
+          </div>
+          <div class="sidebar-block">
+            <span class="sidebar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="M4 7l8 6 8-6"></path>
+              </svg>
+            </span>
+            <span class="sidebar-label">Email</span>
+            <strong><a href="mailto:lclarosrocha@gmail.com">lclarosrocha@gmail.com</a></strong>
+          </div>
+          <div class="sidebar-block">
+            <span class="sidebar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <circle cx="12" cy="12" r="8.5"></circle>
+                <path d="M3.5 12h17"></path>
+                <path d="M12 3.5a13 13 0 010 17"></path>
+                <path d="M12 3.5a13 13 0 000 17"></path>
+              </svg>
+            </span>
+            <span class="sidebar-label">Languages</span>
+            <strong>Spanish native - English C1</strong>
+          </div>
+
+          <div class="social-list" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/diego-claros-qa" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/Diego-Claros17" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:lclarosrocha@gmail.com">Gmail</a>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section id="profile" class="section container">
+        <div class="section-heading">
+          <p class="section-label">Profile</p>
+          <h2>Focused on practical testing, clean execution, and sustainable automation.</h2>
           <p>
-            Lightweight Python framework for API testing with reusable request helpers, response validation,
-            and negative test coverage.
+            My experience includes functional, regression, exploratory, smoke, and UAT testing for web and
+            mobile applications, plus automation using Selenium, Playwright, Cypress, and API validation tools.
+            I also bring backend SQL checks, documentation discipline, and cross-team collaboration.
           </p>
-          <span class="tag">Python</span>
-          <span class="tag">Requests</span>
-          <span class="tag">Pytest</span>
-        </article>
-      </div>
-    </section>
+        </div>
 
-    <section id="skills" class="section container">
-      <div class="section-heading">
-        <p class="section-label">Skills</p>
-        <h2>Technical stack</h2>
-      </div>
-      <div class="grid three-col">
-        <div class="card">
-          <h3>Automation</h3>
-          <ul>
-            <li>Selenium WebDriver</li>
-            <li>Playwright</li>
-            <li>Pytest</li>
-            <li>Cypress</li>
-            <li>RestAssured</li>
-          </ul>
+        <div class="profile-grid">
+          <article class="card profile-card">
+            <span class="section-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="M8 10h8M8 14h5"></path>
+              </svg>
+            </span>
+            <h3>Testing practice</h3>
+            <p>Functional, regression, exploratory, smoke, UI, UAT, and backend-oriented validation work.</p>
+          </article>
+          <article class="card profile-card">
+            <span class="section-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M8 7l-4 5 4 5M16 7l4 5-4 5M14 4l-4 16"></path>
+              </svg>
+            </span>
+            <h3>Automation direction</h3>
+            <p>Selenium, Playwright, Cypress, RestAssured, and maintainable test structure for repeated flows.</p>
+          </article>
+          <article class="card profile-card">
+            <span class="section-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 12h16M12 4v16"></path>
+                <circle cx="12" cy="12" r="9"></circle>
+              </svg>
+            </span>
+            <h3>Team contribution</h3>
+            <p>Clear bug reporting, collaboration with developers and analysts, and disciplined QA communication.</p>
+          </article>
         </div>
-        <div class="card">
-          <h3>QA & Validation</h3>
-          <ul>
-            <li>Functional Testing</li>
-            <li>Regression Testing</li>
-            <li>Exploratory Testing</li>
-            <li>Smoke Testing</li>
-            <li>UAT Support</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Tools</h3>
-          <ul>
-            <li>Postman / Newman</li>
-            <li>Jira / Confluence</li>
-            <li>SQL</li>
-            <li>Git / GitHub</li>
-            <li>Allure</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section container">
-      <div class="section-heading">
-        <p class="section-label">Experience</p>
-        <h2>Selected background</h2>
-      </div>
-      <div class="timeline">
-        <div class="card timeline-item">
-          <h3>QA Tester — Encora</h3>
-          <p>Performed QA analysis, defect reporting, and support scripting to improve validation and reporting efficiency.</p>
+      <section id="experience" class="section container">
+        <div class="section-heading">
+          <p class="section-label">Experience</p>
+          <h2>Hands-on roles across testing, automation, and web delivery.</h2>
         </div>
-        <div class="card timeline-item">
-          <h3>QA Engineer — Digital Academy AssureSoft</h3>
-          <p>Worked with Selenium, Playwright, RestAssured, regression testing, and Agile team collaboration.</p>
-        </div>
-        <div class="card timeline-item">
-          <h3>Freelancer — QA Tester & Web Developer</h3>
-          <p>Tested web and mobile applications while also building and customizing websites using WordPress, Shopify, and Divi.</p>
-        </div>
-      </div>
-    </section>
 
-    <section id="contact" class="section container">
-      <div class="section-heading">
-        <p class="section-label">Contact</p>
-        <h2>Let’s connect</h2>
-      </div>
-      <div class="card contact-card">
-        <p><strong>Email:</strong> <a href="mailto:lclarosrocha@gmail.com">lclarosrocha@gmail.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/diego-claros-qa" target="_blank" rel="noreferrer">linkedin.com/in/diego-claros-qa</a></p>
-        <p><strong>Location:</strong> Cochabamba, Bolivia</p>
-      </div>
-    </section>
-  </main>
+        <div class="timeline">
+          <article class="card timeline-item">
+            <span class="timeline-marker"></span>
+            <p class="timeline-meta">Feb 2025 - Present</p>
+            <h3>QA Tester - Encora</h3>
+            <p>
+              Performed QA analysis by identifying, documenting, and reporting defects across multiple
+              features, while building support scripts and validating fixes with regression coverage.
+            </p>
+          </article>
 
-  <footer class="footer">
-    <div class="container">
-      <p>Built as a QA Automation portfolio project.</p>
-    </div>
-  </footer>
+          <article class="card timeline-item">
+            <span class="timeline-marker"></span>
+            <p class="timeline-meta">Oct 2023 - Mar 2024</p>
+            <h3>QA Engineer - Digital Academy AssureSoft</h3>
+            <p>
+              Worked with RestAssured, Selenium, and Playwright, combining backend testing, frontend
+              automation, defect reporting, and Agile collaboration using Jira plus Scrum and Kanban practices.
+            </p>
+          </article>
+
+          <article class="card timeline-item">
+            <span class="timeline-marker"></span>
+            <p class="timeline-meta">Aug 2022 - Jan 2025</p>
+            <h3>Freelancer - QA Tester</h3>
+            <p>
+              Designed and executed manual test cases for web and mobile products, performed functional,
+              regression, and exploratory testing, and supported Python plus Selenium automation for repetitive checks.
+            </p>
+          </article>
+
+          <article class="card timeline-item">
+            <span class="timeline-marker"></span>
+            <p class="timeline-meta">Apr 2023 - Jan 2025</p>
+            <h3>Freelancer - Web Developer</h3>
+            <p>
+              Built responsive websites with WordPress, Shopify, and Divi, implemented SEO and performance
+              improvements, and delivered maintenance work focused on stability and usability.
+            </p>
+          </article>
+
+          <article class="card timeline-item">
+            <span class="timeline-marker"></span>
+            <p class="timeline-meta">Feb 2023 - Jun 2023</p>
+            <h3>Intern - DTIC UMSS</h3>
+            <p>
+              Developed and optimized websites with WordPress, HTML, CSS, and JavaScript while also performing
+              QA checks, reporting defects, and supporting improvements with developers.
+            </p>
+          </article>
+
+          <article class="card timeline-item">
+            <span class="timeline-marker"></span>
+            <p class="timeline-meta">Jul 2021 - Jul 2022</p>
+            <h3>QA Tester and Web Developer - EDUBO</h3>
+            <p>
+              Combined QA testing and website delivery, identifying issues, suggesting usability and performance
+              improvements, and supporting product quality through technical execution.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Technical capabilities aligned with QA engineering work.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card skill-card">
+            <h3>Testing and Automation</h3>
+            <ul>
+              <li>Functional, Regression, Exploratory, UI, Smoke, and UAT testing</li>
+              <li>Selenium with Python and Java</li>
+              <li>Playwright with Node.js</li>
+              <li>Cypress with JavaScript</li>
+              <li>RestAssured with Java</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card">
+            <h3>API, Data, and Performance</h3>
+            <ul>
+              <li>Postman and Newman for API validation</li>
+              <li>JSON response verification</li>
+              <li>SQL queries for backend validation</li>
+              <li>SELECT, JOIN, and WHERE validation workflows</li>
+              <li>JMeter for performance testing</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card">
+            <h3>Reporting and Delivery</h3>
+            <ul>
+              <li>Jira, Confluence, TestRail, Allure, and HTML reports</li>
+              <li>Git and GitHub version control</li>
+              <li>Agile, Scrum, and Kanban collaboration</li>
+              <li>Basic CI/CD awareness for automated test execution</li>
+              <li>Clear communication with developers, analysts, and project managers</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card">
+            <h3>Web and Product Tools</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>WordPress, Shopify, Divi</li>
+              <li>cPanel and WordPress plugins</li>
+              <li>Responsive website implementation</li>
+              <li>Performance and usability improvements</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" class="section container">
+        <div class="section-heading">
+          <p class="section-label">Certifications</p>
+          <h2>Formal learning that supports the QA profile.</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="card cert-card">
+            <h3>Main certifications</h3>
+            <ul>
+              <li>ISTQB Certified Tester Foundation Level v4.0 - 2024</li>
+              <li>Diploma in Commercial Software Quality Engineering UMSS - 2023</li>
+              <li>Salesforce Certified AI Specialist - 2025</li>
+              <li>Generative AI Training Coursera - 2025</li>
+              <li>Data Analyst Training Internal Corporate Course - 2025</li>
+            </ul>
+          </article>
+
+          <article class="card cert-card">
+            <h3>Additional background</h3>
+            <ul>
+              <li>CCNA Switching, Routing, and Wireless Essentials - 2022</li>
+              <li>CCNAv7 Introduction to Networks - 2021</li>
+              <li>Frontend Development Fundamentals - 2020</li>
+              <li>Startup Weekend San Simon 2022 - 3rd Place</li>
+              <li>English certificates Top Notch and Summit</li>
+            </ul>
+          </article>
+
+          <article class="card cert-card">
+            <h3>Education</h3>
+            <ul>
+              <li>Bachelor's Degree in Systems Engineering - UMSS</li>
+              <li>Diploma Program in Software Quality Engineering - UMSS</li>
+              <li>Secondary level - Santo Domingo Savio</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="contact-panel card">
+          <div class="contact-copy">
+            <p class="section-label">Contact</p>
+            <h2>Available for QA and Automation QA opportunities.</h2>
+            <p>
+              If you need someone who combines structured testing, strong QA fundamentals, and practical
+              automation growth, I would be glad to connect.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <a class="contact-link" href="mailto:lclarosrocha@gmail.com">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M4 6h16v12H4z"></path>
+                  <path d="M4 7l8 6 8-6"></path>
+                </svg>
+              </span>
+              <strong>Gmail</strong>
+              <span>lclarosrocha@gmail.com</span>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/diego-claros-qa" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M6.5 8.5V18M6.5 5.5h.01M11 18v-5.2c0-1.7 1.2-3.3 3.1-3.3 1.9 0 2.9 1.3 2.9 3.5V18"></path>
+                  <path d="M3.5 3.5h17v17h-17z"></path>
+                </svg>
+              </span>
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/diego-claros-qa</span>
+            </a>
+            <a class="contact-link" href="https://github.com/Diego-Claros17" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M9 18c-4 1.2-4-2-5.5-2.4M14.5 20v-3.1c0-1 .1-1.5-.5-2 2.2-.2 4.5-1.1 4.5-5 0-1.1-.4-2-1-2.7.1-.2.5-1.3-.1-2.7 0 0-.8-.3-2.8 1a9.5 9.5 0 00-5.2 0c-2-1.3-2.8-1-2.8-1-.6 1.4-.2 2.5-.1 2.7-.6.7-1 1.6-1 2.7 0 3.9 2.3 4.8 4.5 5-.6.5-.6 1.2-.6 2V20"></path>
+                  <path d="M12 2.8a9.2 9.2 0 100 18.4 9.2 9.2 0 000-18.4z"></path>
+                </svg>
+              </span>
+              <strong>GitHub</strong>
+              <span>github.com/Diego-Claros17</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>Luis Diego Claros Rocha - QA Automation Engineer</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
